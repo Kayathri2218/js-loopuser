@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta content="width=dives-width, initial-scale=1.0">
+    <title>loopuser</title>
+</head>
+
+<body>
+    <script>
+        document.write('<br>');
+        document.write('<br>');
+
+        //6. function and looping
+
+        document.write("Function and Looping")
+        document.write('<br>');
+        function manytime(user, time) {
+            for (let i = 0; i < time; i++) {
+                document.write(user);
+                document.write('<br>');
+            }
+        }
+        let userName = prompt("User Name:");
+        let time = parseInt(prompt("which times: "));
+        manytime(userName, time);
+    </script>
+</body>
+
+</html>
